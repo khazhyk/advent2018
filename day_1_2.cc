@@ -35,7 +35,7 @@ int main(int argc, char **argv) {
       total += linenum;
 
       if (seen.find(total) != seen.end()) {
-        std::cout << "Found match! " << total;
+        std::cout << "Found match! " << total << "\n";
         return 0;
       }
       seen.insert(total);
