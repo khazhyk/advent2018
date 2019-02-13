@@ -19,7 +19,7 @@ int main(int argc, char **argv) {
   }
   input.close();
 
-  int total;
+  int64_t total = 0;
   std::string line;
   std::set<int64_t> seen;
 
