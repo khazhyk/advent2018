@@ -8,7 +8,7 @@
 
 const char *input_file = "../res/input_1_1.txt";
 
-int main(int argc, char **argv) {
+int main() {
   std::ifstream input{input_file};
   std::stringstream inputstream;
   inputstream << input.rdbuf();

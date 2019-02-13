@@ -7,7 +7,7 @@
 
 const char *input_file = "../res/input_1_1.txt";
 
-int main(int argc, char **argv) {
+int main() {
   std::ifstream input{input_file};
   std::string line;
 
@@ -15,7 +15,7 @@ int main(int argc, char **argv) {
     std::cerr << std::strerror(errno) << "\n";
   }
 
-  int total;
+  int total = 0;
 
   while (std::getline(input, line)) {
     int linenum;
