@@ -5,7 +5,7 @@
 #include <sstream>
 #include <string>
 
-const char *input_file = "../res/input_1_1.txt";
+const char *input_file = "../res/input_1.txt";
 
 int main() {
   std::ifstream input{input_file};
