@@ -30,7 +30,7 @@ int main() {
     return -1;
   }
   // Well here's one way to do it
-  std::vector<std::array<uint8_t, 1000>> bitmap(1000);
+  std::array<std::array<uint8_t, 1000>, 1000> bitmap{};
 
   std::vector<box> boxes;
 
